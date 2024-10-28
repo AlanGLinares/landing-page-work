@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Manrope:wght@400;600&display=swap');
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.125rem;
+  overflow-x: hidden;
+} 
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+:root {
+  --primary-color: #24053E;
+  --second-color: #44FFA1;
+  --davys-grey: #584D62;
+  --ghost-white: #FCF8FF;
+  --white: #fff;
+}
+
+.font-vs__m {
+  text-align: center;
+  font-family: 'Fraunces' ,sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.125rem
+}
+
+
+.font-vsp__m {
+  font-family: 'Fraunces' ,sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+
+
+.font-l {
+  font-family: 'Fraunces' sans-serif;
+  font-size: 80px;
+  font-weight: 600; 
+}
+
+.font-m {
+  font-family: 'Fraunces' sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.font-s {
+  font-family: 'Fraunces' sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+.btn-primary {
+  position: relative;
+  font-weight: bold;
+  padding: 0.8125rem 1rem;
+  text-align: center;
+  margin: auto;
+  width: 8.3125rem;
+  display: block;
+  background-color: var(--second-color);
+  color: var(--primary-color);
+}
+
+
+.btn-primary-1 {
+  position: relative;
+  font-weight: bold;
+  padding: 0.8125rem 1rem;
+  text-align: center;
+  margin: auto;
+  width: 8.3125rem;
+  display: block;
+  background-color: var(--second-color);
+  color: var(--primary-color);
+}
+
+
+
+.btn-primary:hover {
+  display: block;
+  background-color: #24053e;
+  border: 1px solid #44ffa1;
+  color: var(--second-color);
+}
+

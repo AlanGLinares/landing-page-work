@@ -1,0 +1,555 @@
+/* HEADER */
+.bg-container {
+  background-color: var(--primary-color);
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 2.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  color: var(--white);
+  padding-bottom: 0.125rem;
+  border-bottom: 0.1875rem solid var(--second-color);
+}
+
+.link:hover {
+  color: #44FFA1;
+}
+
+.item-container {
+  background-color: var(--primary-color);
+  height: 20rem;
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+}
+
+.img1,.img2, .img4 {
+  display: none;
+}
+
+.title {
+  color: var(--white);
+  padding: 0 20px;
+}
+
+.title h1 {
+  margin: 0 auto;
+  width: 343px;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.detail {
+  display: inline-block;
+  border-bottom: 0.1875rem solid var(--second-color);
+}
+
+
+/* TABLE */
+@media (min-width: 768px) {
+
+ 
+  .img1 {
+    display: inline-block;
+    position: relative;
+    left: -230px;
+  }
+
+  .img2 {
+    display: block;
+    right: -700px;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .item-container {
+    background-color: var(--primary-color);
+    height: 28.125rem;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+  }
+
+  .title h1 {
+    margin: 0 auto;
+    margin-top: -300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 1440px;
+  }
+  
+  .item-container {
+    background-color: var(--primary-color);
+    height: 600px;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+  }
+
+  .title {
+    padding-top: 30px;
+  }
+
+
+  .title h1 {
+    font-size: 5rem;
+    width: 39.6875rem;
+    line-height: 5rem;
+  }
+
+  .img1 {
+    left: -7.5rem;
+  }
+
+  .img2 {
+    position: absolute;
+    right: -2.5rem;
+    bottom: 25rem;
+  }
+}
+
+/* HEADER */
+
+/* MAIN */
+
+.img-phone {
+  margin: auto;
+  bottom: 5rem;
+  position: relative;
+  width: 300px;
+  height: 180px;
+}
+
+.item {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.item p {
+  width: 343px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 28px;
+  font-family: "Manrope";
+}
+
+.title1 {
+  padding-bottom: 16px;
+}
+
+.title1::before {
+  content: '1';
+  display: flex;
+  width: 3rem;
+  height: 2.875rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.875rem;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+
+.title2  {
+  padding-bottom: 16px;
+
+}
+
+.title2::before {
+  content: '2';
+  display: flex;
+  width: 3rem;
+  height: 2.875rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.875rem;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.title3  {
+  padding-bottom: 16px;
+}
+
+.title3::before {
+  content: '3';
+  display: flex;
+  width: 3rem;
+  height: 2.875rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.875rem;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.section-1 {
+  margin-bottom: 100px;
+
+}
+
+
+
+
+/* TABLE */
+@media (min-width: 768px) {
+
+  .img-phone {
+    display: block;
+    width: 480px;
+    position: relative;
+    top: -150px;
+  }
+
+
+  .item1 p {
+      width: 490px;
+      margin: 0 auto;
+      text-align: left;
+      position: relative;
+      top: -50px;
+      left: 25px;
+  }
+ 
+
+  .item2 p {
+    width: 490px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    top: -50px;
+    left: 25px;
+   }
+
+   .item3 p {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    top: -50px;
+    left: 25px;
+   }
+
+
+
+  .title1::after {
+    content: '1';
+    display: flex;
+    font-family: "Fraunces" 144pt;
+    width: 48px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: relative;
+    right: 100px;
+  }
+
+
+  .title1 {
+    text-align: left;
+    margin-left: 160px;
+
+  }
+
+  .title1::before {
+    display: none;
+  }
+
+
+  .title2::after {
+    content: '2';
+    display: flex;
+    font-family: "Fraunces" 144pt;
+    width: 48px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: relative;
+    right: 100px;
+  }
+
+  .title2 {
+    text-align: left;
+    margin-left: 160px;
+
+  }
+  
+  .title2::before {
+    display: none;
+  }
+
+
+  .title3::after {
+    content: '3';
+    display: flex;
+    font-family: "Fraunces" 144pt;
+    width: 48px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: relative;
+    right: 100px;
+  }
+
+  .title3 {
+    text-align: left;
+    margin-left: 160px;
+  }  
+
+  .title3::before {
+    display: none;
+    }
+
+  }
+
+  @media (min-width: 1440px) {
+    .img-phone {
+      display: block;
+      width: 700px;
+      height: 405px;
+      position: relative;
+      top: -240px;
+    }
+
+    .container-item {
+      display: flex;
+      max-width: 1440px;
+      justify-content: center;
+      margin: auto;
+      margin-top: -100px;
+      gap: 100px;
+      margin-bottom: 200px;
+    }
+    
+   
+    .title1::after {
+      display: none;
+    }
+    
+    .title1::before {
+      display: flex;
+    }
+
+
+    .title1 {
+      margin: auto;
+      text-align: center;
+      font-size: 32px;
+      width: 354px;
+    }
+
+    .item p {
+      height: 128px;
+      max-width: 354px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .title2::after {
+      display: none;
+    }
+
+    .title2::before {
+      display: flex;
+    }
+
+
+    .title2 {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 32px;
+      justify-content: center;
+    }
+
+    .item2 p {
+      text-align: center;
+      position: static;
+    }
+
+    .title3::after {
+      display: none;
+    }
+
+    .title3::before {
+      display: flex;
+    }
+
+    .title3 {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .item3 p {
+      text-align: center;
+      position: static;
+    }
+
+  }
+
+
+
+
+
+
+/* MAIN  */
+
+.img3 {
+  margin: auto;
+  width: 16.5625rem;
+  height: 16.6875rem;
+
+}
+
+.people-2 {
+  background-color: var(--primary-color);
+  padding: 40px;
+  margin: 0 16px;
+  position: relative;
+  top: -50px;
+
+
+}
+
+
+.people-2 h1 {
+  width: 280px;
+  font-family: "Fraunces" 144pt;
+  font-size: 2rem;
+  color: var(--white);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.people-2 p {
+  width: 17.5625rem;
+  color: var(--white);
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* TABLE */
+@media (min-width: 768px) {
+
+  .img3 {
+    width: 16.5625rem;
+    height: 16.6875rem;
+    margin-left: 2.25rem;
+  }
+
+  .people-2 { 
+    width: 32.125rem;
+    height: 23.4375rem;
+    position: relative;
+    left: 12.5rem;
+    top: -8.75rem;
+  }
+
+  .people-2 p {
+    text-align: left;
+    width: 25rem;
+  }
+
+  .btn-primary-1 {
+    margin: 0;
+  }
+ 
+  .img4 {
+    display: block;
+    position: relative;
+    left: 260px;
+  }
+}
+
+.people-2 a {
+  text-align: center;
+  width: 200px;
+}
+
+@media (min-width: 1440px) {
+  .img3 {
+    width: 450px;
+    height: 453px;
+    margin-left: 400px;
+  }
+
+  .people-2 {
+    width: 730px;
+    height: 413px;
+    position: relative;
+    top: -300px;
+    left: 750px;
+    
+  }
+
+  .people-2 h1 {
+    display: inline;
+    width: 400px;
+    font-size: 56px;
+    font-family: 'Fraunces' sans-serif;
+  }
+
+  .people-2 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 600px;
+    margin-top: 32px;
+  }
+
+
+  .img4 {
+    position: relative;
+    top: -70px;
+    left: 400px;
+  }
+
+}
+
+
+
+/* MAIN */
+
+/* FOOTER  */
+
+.img-footer {
+ display: flex;
+ justify-content: center;
+ height: 38px;
+ margin-bottom: 80px;
+}
+
+.flex-1 {
+  display: flex;
+  justify-content: center;
+  height: 28px;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+/* TABLE */
+@media (min-width: 768px) {
+
+  .footer-bg {
+    margin-bottom: 13.75rem;
+  }
+}
+
+/* Footer */
